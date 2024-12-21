@@ -25,6 +25,7 @@ const aj = arcjet({
       allow: [
         "CATEGORY:SEARCH_ENGINE",
         "CURL",
+        "VERCEL_MONITOR_PREVIEW", // Vercel preview bot
         // Google, Bing, etc
         // Uncomment to allow these other common bot categories
         // See the full list at https://arcjet.com/bot-list
